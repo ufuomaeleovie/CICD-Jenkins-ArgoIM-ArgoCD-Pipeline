@@ -8,6 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
+        sh 'chown -R CICD-Jenkins-ArgoIM-ArgoCD-Pipeline'
         sh 'echo passed'
         //git branch: 'main', url: 'https://github.com/inventadenos/CICD-Jenkins-ArgoIM-ArgoCD-Pipeline'
       }
