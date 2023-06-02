@@ -9,8 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        git branch: 'main', url: 'https://github.com/inventadenos/CICD-Jenkins-ArgoIM-ArgoCD-Pipeline'
-      }
+        git branch: 'main', credentialsId: 'docker-cred', url: 'https://github.com/inventadenos/CICD-Jenkins-ArgoIM-ArgoCD-Pipeline.git'      }
     }
     stage('Build and Test') {
       steps {
