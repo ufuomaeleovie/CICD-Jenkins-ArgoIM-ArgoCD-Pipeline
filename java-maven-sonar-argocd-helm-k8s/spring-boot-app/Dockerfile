@@ -4,7 +4,7 @@ FROM adoptopenjdk/openjdk11:alpine
 
 # Simply the artifact path
 ARG artifact=target/spring-boot-web.jar
-ADD target/spring-boot-starter-parent-2.2.4.RELEASE.jar spring-boot-starter-parent-2.2.4.RELEASE.jar
+ADD target/spring-boot-web.jar spring-boot-web.jar
 
 WORKDIR /opt/app
 
