@@ -8,7 +8,7 @@ ADD target/spring-boot-web.jar spring-boot-web.jar
 
 WORKDIR /opt/app
 
-COPY ${artifact} app.jar
+COPY ${artifact} /opt/app/
 
 # This should not be changed
 ENTRYPOINT ["java","-jar","app.jar"]
