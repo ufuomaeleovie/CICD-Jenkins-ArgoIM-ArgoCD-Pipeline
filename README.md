@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/eleoviestaging/85c9d5f6-c8f3-4726-baae-7c956df4bdd9/d1d947b9-cc8b-472d-baad-5377869491d0/_apis/work/boardbadge/63a8e462-8686-4d26-b59f-e97a9ab8f681)](https://dev.azure.com/eleoviestaging/85c9d5f6-c8f3-4726-baae-7c956df4bdd9/_boards/board/t/d1d947b9-cc8b-472d-baad-5377869491d0/Microsoft.RequirementCategory)
 
 Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more.
 
